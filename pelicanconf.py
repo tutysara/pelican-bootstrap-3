@@ -7,7 +7,8 @@ AUTHOR = u'tutysara'
 SITENAME = u"tutysara's space"
 #SITEURL = 'http://localhost:8080'
 SITEURL = 'http://www.tutysara.net'
-
+# Uncomment following line if you want document-relative URLs when developing
+#RELATIVE_URLS = True
 
 TIMEZONE = 'Asia/Calcutta'
 
@@ -50,9 +51,6 @@ COPY_RIGHT_STRING = "Copyright 2013, tutysara  <a href='http://blog.getpelican.c
 DISQUS_SITENAME = 'tutysarablog'
 # google analytics
 GOOGLE_ANALYTICS = 'UA-34510369-1'
-
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
 
 # Filename Metadata: YYYY-MM-DD-the-rest-before-the-dot-is-the-slug.md, for example
 FILENAME_METADATA = '(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)'
